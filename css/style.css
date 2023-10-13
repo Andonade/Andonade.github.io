@@ -3468,7 +3468,7 @@ html.is-animating .swup-progress-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(120deg, rgba(217,126,108,0.208) 0%, rgba(108,206,217,0.208) 100%);
+  background: linear-gradient(120deg, rgba(222,145,138,0.208) 0%, rgba(138,218,219,0.208) 100%);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   padding-top: 2px;
