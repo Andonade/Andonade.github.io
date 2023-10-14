@@ -14,7 +14,7 @@
 </div>
 
 <h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>前期的准备是顺利，简简单单地安装一些依赖即可，然后噩梦才刚要开始，由于官方文档的引导并不算好，并且我自身对博客的搭建也有些先入为主的想法，导致一开始使用<a class="link"   href="https://github.com/saicaca/hexo-theme-vivia" >主题 vivia </a>配置后在 Github 一直 <code>Build Fail</code> ，这个问题在之后的过程也频繁的出现，实际上 Gtihub 总共给我发的通知我 <code>Build Fail</code> 的邮件足足有<strong>60条</strong>！！不管我怎么调整（现在想来全是傻傻的无用功），均以失败告终的结果使得我有些急躁，于是我将本地以及 Github 上的远程库全部删除，想要从头再来</p>
-<p>第二次建库，我将自己的博客与 Holder 的博客进行了比较，发现了一个问题，<em>vivia</em> 的文档实在是太简略了，于是我就打算重新找一个文档详细并且同样美观的主题，我很快就翻到了目前这个博客使用的主题 <em>Redefine</em> ，这个主题完美符合了我的要求，不仅外观设计简洁大方，并且还拥有非常详细的文档。所以我便重拾信心，开始使用新主题搭建博客，与第一次建库一样，我反复地遇到 <code>Build Fail</code> ，并且是和第一次一样的愚蠢原因，几十次的失败确实有点难顶，我在朋友圈发牢骚，和好朋友吐槽，最终也是与第一次一样，我删掉了本地和远程库</p>
+<p>第二次建库，我将自己的博客与 Holder 的博客进行了比较，发现了一个问题，<em>vivia</em> 的文档实在是太简略了，于是我就打算重新找一个文档详细并且同样美观的主题，我很快就翻到了目前这个博客使用的主题 <em>redefine</em> ，这个主题完美符合了我的要求，不仅外观设计简洁大方，并且还拥有非常详细的文档。所以我便重拾信心，开始使用新主题搭建博客，与第一次建库一样，我反复地遇到 <code>Build Fail</code> ，并且是和第一次一样的愚蠢原因，几十次的失败确实有点难顶，我在朋友圈发牢骚，和好朋友吐槽，最终也是与第一次一样，我删掉了本地和远程库</p>
 <p>第三次建库，依然使用 <em>redefine</em> 的我开始摸到一些门路，不过说实话，或许 Andonade 直到第三次建库才开始真正的思考 <code>Build Fail</code> 的原因，之前几乎每次 <code>Build Fail</code> 的日志中都写着像下面这样的信息</p>
 <div class="highlight-container" data-rel="Text"><figure class="iseeu highlight text"><table><tr><td class="code"><pre><span class="line">Configuration file: /github/workspace/./_config.yml</span><br><span class="line">             Theme: redefine</span><br><span class="line">github-pages 228 | Error:  The redefine theme could not be found.</span><br></pre></td></tr></table></figure></div>
 
@@ -22,10 +22,10 @@
 <div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/Andonade/Andonade.github.io</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure></div>
 
 <p>然后使用以下命令，来生成并部署我的网页</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean  <span class="comment">#删除生成的网页静态文件</span></span><br><span class="line">hexo d -g   <span class="comment">#生成网页静态文件并根据上面的配置信息进行部署</span></span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean  <span class="comment">#删除之前生成的网页静态文件</span></span><br><span class="line">hexo d -g   <span class="comment">#生成网页静态文件并根据上面的配置信息进行部署</span></span><br></pre></td></tr></table></figure></div>
 
 <p>虽然对代理的要求有点高，但是成功之后，上传到远程库上的将会是本地生成的网页静态文件，这时候 Jekyll 将能够轻松将其构建，解决了兼容的问题，而我的个人博客也终于成功部署在了现在这个网站</p>
-<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>其实，有关这个博客的工作依然还没完成，所以这个所谓的<em>写在最后</em>也并非就是最后，categories, tags 还有 about 页面仍然没有完成，网站也有些小瑕疵仍待改进，最重要的是，目前手工进行生成并部署的方式还是太麻烦了，因此不久后本站将要通过 Travis CI bot 实现 CI，不过这篇 Post 暂且写到这里，我们下次再见！</p>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>其实，有关这个博客的工作依然还没完成，所以这个所谓的 <em>写在最后</em> 也并非就是最后，categories, tags 还有 about 页面仍然没有完成，网站也有些小瑕疵仍待改进，最重要的是，目前手工进行生成并部署的方式还是太麻烦了，因此不久后本站将要通过 Travis CI bot 实现 CI，不过这篇 Post 暂且写到这里，我们下次再见！</p>
 <details class="blue" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>感谢以下在搭建本博客过程中给我带来参考的内容 </summary>
               <div class='content'>
               <p><a class="link"   href="https://easyhexo.com/" >Easy Hexo🧑‍💻</a></p><p><a class="link"   href="https://redefine-docs.ohevan.com/" >Redefine docs</a></p><p><a class="link"   href="https://github.com/Ashitemaru/Ashitemaru.github.io" >Holder 的个人博客仓库</a></p><p><a class="link"   href="https://github.com/CainHappyfish/CainHappyfish.github.io" >破酥 的个人博客仓库</a>以及破酥本人的<strong>亲自指导</strong></p><p><a class="link"   href="https://github.com/c7w/c7w.github.io" >c7w 的个人博客仓库</a></p>
