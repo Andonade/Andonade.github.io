@@ -1,0 +1,19 @@
+sudo: true
+language: node_js
+node_js:
+  - 18
+cache: npm
+branches:
+  only:
+    - main # build main branch only
+script:
+  - yarn install
+  - hexo generate # generate static files
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: main
+  local-dir: public

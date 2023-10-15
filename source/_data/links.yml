@@ -1,0 +1,15 @@
+- links-category: Owner
+  has-thumbnail: false
+  list:
+  - name: Andonade
+    link: https://andonade.github.io
+    description: Normal one. Normal days.
+    avatar: https://andonade.github.io/images/meru.jpeg
+
+- links-category: Friends
+  has-thumbnail: false
+  list:
+  - name: 破酥
+    link: https://cainhappyfish.github.io
+    description: 水平甩我十条街
+    avatar: https://cainhappyfish.github.io/pic/au.jpg
