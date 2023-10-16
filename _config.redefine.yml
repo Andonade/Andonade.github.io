@@ -309,8 +309,8 @@ comment:
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
-      clientID: d9a5f2faab05ebad7053 # GitHub Application Client ID
-      clientSecret: 263b260ecc7e36d520ac195924f7f1166150aa75 # GitHub Application Client Secret
+      clientID: $GITALK_ID # GitHub Application Client ID
+      clientSecret: $GITALK_SECRET # GitHub Application Client Secret
       repo:  Blog_Comment_Archive # GitHub repository
       owner: Andonade # GitHub repository owner
     # Twikoo comment system. See https://twikoo.js.org/
