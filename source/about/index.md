@@ -3,6 +3,8 @@ title: 关于我是谁
 date: 2023-10-16 14:57:54
 ---
 
+![From 紺屋鴉江](../images/fukakai.jpeg)
+
 如果你对我这个人感兴趣的话，那看看下面的文字吧！
 
 ## 基本信息
@@ -33,7 +35,7 @@ Andonade ，我从高中时期即开始使用并打算继续使用下去的代�
 
 ## 兴趣爱好
 
-- **音游** *2021至今* ：音游经历为 BanG Dream! 、 Project Sekai 、 Arcaea 、 Phigros 、 Orzmic ，移动端外暂无涉猎，目前 BanG! Dream 、 Phigros 游玩频率已经很低，Orzmic 、 Project Sekai 几乎为一周一玩，现状为 Arcaea 沉迷中
+- **音游** *2021至今* ：音游经历为 BanG Dream! 、 Project Sekai 、 Arcaea 、 Phigros 、 Orzmic ，移动端外暂无涉猎，目前 BanG Dream! 、 Phigros 游玩频率已经很低，Orzmic 、 Project Sekai 几乎为一周一玩，现状为 Arcaea 沉迷中
 
 - **Vocaloid** *2020至今* ：P主喜欢 Orangestar ,歌姬喜欢 初音ミク 和 IA ，最喜欢的歌是 アスノヨゾラ哨戒班 —— Orangestar / IA
 
@@ -57,7 +59,7 @@ Andonade ，我从高中时期即开始使用并打算继续使用下去的代�
 
 - *2023* ：不要忘了自己本来是谁，尽量坚持这个自己吧
 
-## 写在做最后
+## 写在最后
 
 这里也给自己送个祝福吧
 
