@@ -29,7 +29,7 @@ Andonade ，我从高中时期即开始使用并打算继续使用下去的代�
 
 - **Java** 主要技能点在 Android 开发
 
-- **JavaScript&TypeScript** 主要为 React 前端开发
+- **JavaScript | TypeScript** 主要为 React 前端开发
 
 - **Lua** 为了读 Don't Starve Together 的源码而学习，目前已搁置
 
