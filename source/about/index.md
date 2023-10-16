@@ -3,9 +3,7 @@ title: 关于我是谁
 date: 2023-10-16 14:57:54
 ---
 
-![From 紺屋鴉江](../images/fukakai.jpeg)
-
-如果你对我这个人感兴趣的话，那看看下面的文字吧！
+![From 紺屋鴉江](/images/fukakai.jpeg)
 
 ## 基本信息
 
