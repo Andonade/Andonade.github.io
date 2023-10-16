@@ -35,7 +35,7 @@ Andonade ，我从高中时期即开始使用并打算继续使用下去的代�
 
 - **音游** *2021至今* ：音游经历为 BanG Dream! 、 Project Sekai 、 Arcaea 、 Phigros 、 Orzmic ，移动端外暂无涉猎，目前 BanG Dream! 、 Phigros 游玩频率已经很低，Orzmic 、 Project Sekai 几乎为一周一玩，现状为 Arcaea 沉迷中
 
-- **Vocaloid** *2020至今* ：P主喜欢 Orangestar ,歌姬喜欢 初音ミク 和 IA ，最喜欢的歌是 アスノヨゾラ哨戒班 —— Orangestar / IA
+- **Vocaloid** *2020至今* ：P主喜欢 Orangestar ，歌姬喜欢 初音ミク 和 IA ，最喜欢的歌是 アスノヨゾラ哨戒班 —— Orangestar / IA
 
 - **Minecraft** *小学不知道几年级至今* ： 玩过最久的游戏，大学前都是在玩手机版，大学后开始玩 JE ，比较喜欢的内容是跑酷、冒险与生存，于此同时在建筑以及生电上希望有所长进
 
