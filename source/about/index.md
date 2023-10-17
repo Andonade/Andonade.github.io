@@ -31,6 +31,8 @@ Andonade ，我从高中时期即开始使用并打算继续使用下去的代�
 
 - **Lua** 为了读 Don't Starve Together 的源码而学习，目前已搁置
 
+- **Rust** 感兴趣且已开始学习
+
 ## 兴趣爱好
 
 - **音游** *2021至今* ：音游经历为 BanG Dream! 、 Project Sekai 、 Arcaea 、 Phigros 、 Orzmic ，移动端外暂无涉猎，目前 BanG Dream! 、 Phigros 游玩频率已经很低，Orzmic 、 Project Sekai 几乎为一周一玩，现状为 Arcaea 沉迷中
