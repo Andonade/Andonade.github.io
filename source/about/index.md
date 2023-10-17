@@ -3,7 +3,7 @@ title: 关于我是谁
 date: 2023-10-16 14:57:54
 ---
 
-![From 紺屋鴉江](/images/fukakai.jpeg)
+![From 紺屋鴉江](https://i.imgs.ovh/2023/10/18/r9bFJ.jpeg)
 
 ## 基本信息
 

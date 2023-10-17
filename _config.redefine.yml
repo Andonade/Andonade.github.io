@@ -21,11 +21,11 @@ info:
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 defaults:
   # Favicon
-  favicon: /images/miku.jpeg
+  favicon: https://i.imgs.ovh/2023/10/18/r9OW3.jpeg
   # Site logo
-  logo: /images/miku.jpeg
+  logo: https://i.imgs.ovh/2023/10/18/r9OW3.jpeg
   # Site avatar
-  avatar: /images/meru.jpeg
+  avatar: https://i.imgs.ovh/2023/10/18/r97Pe.jpeg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -103,8 +103,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/kafu.jpeg # light mode
-    dark: /images/kafu.jpeg # dark mode
+    light: https://i.imgs.ovh/2023/10/18/r9SUv.jpeg # light mode
+    dark: https://i.imgs.ovh/2023/10/18/r9SUv.jpeg # dark mode
   # Home banner title
   title: Andonade's Blog
   # Home banner subtitle
@@ -380,23 +380,23 @@ plugins:
       - name: Summer Ghost # audio name
         artist: 小瀬村晶 # audio artist
         url: /music/Summer_Ghost.mp3 # audio url
-        cover: /images/Summer_Ghost.jpg # audio cover url
+        cover: https://i.imgs.ovh/2023/10/18/r9RGO.jpeg # audio cover url
       - name: Reborn
         artist: 当真伊都子,小瀬村晶
         url: /music/Reborn.mp3
-        cover: /images/Summer_Ghost.jpg
+        cover: https://i.imgs.ovh/2023/10/18/r9RGO.jpeg
       - name: 溢爱
         artist: 上松范康
         url: /music/溢爱.mp3
-        cover: /images/overflowing_love.JPG
+        cover: https://i.imgs.ovh/2023/10/18/r9Qe9.jpeg
       - name: 友人A君を私の伴奏者に任命します
         artist: 横山克
         url: /music/友人A君を私の伴奏者に任命します.mp3
-        cover: /images/Friend_A.JPG
+        cover: https://i.imgs.ovh/2023/10/18/r9x8V.jpeg
       - name: Last Promise
         artist: RAYの丼
         url: /music/Last_Promise.mp3
-        cover: /images/Last_Promise.JPG
+        cover: https://i.imgs.ovh/2023/10/18/r9osW.jpeg
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url
