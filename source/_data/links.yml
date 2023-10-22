@@ -1,19 +1,20 @@
 - links-category: Owner
-  has-thumbnail: false
+  has-thumbnail: true
   list:
-  - name: Andonade
-    link: https://andonade.github.io
-    description: Normal one. Normal days.
-    avatar: https://i.imgs.ovh/2023/10/18/r97Pe.jpeg
+    - name: Andonade
+      link: https://andonade.github.io
+      description: Normal one. Normal days.
+      avatar: https://i.imgs.ovh/2023/10/18/r97Pe.jpeg
+      thumbnail: https://i.imgs.ovh/2023/10/18/r9SUv.jpeg
 
 - links-category: Friends
   has-thumbnail: false
   list:
-  - name: 破酥
-    link: https://cainhappyfish.github.io
-    description: 水平甩我十条街
-    avatar: https://cainhappyfish.github.io/pic/au.jpg
-  - name: FLCL
-    link: https://qjz22.github.io/
-    description: 帅气逼人的舍友
-    avatar: https://avatars.githubusercontent.com/u/126385851?v=4
+    - name: 破酥
+      link: https://cainhappyfish.github.io
+      description: 水平甩我十条街
+      avatar: https://cainhappyfish.github.io/pic/au.jpg
+    - name: FLCL
+      link: https://qjz22.github.io/
+      description: 帅气逼人的舍友
+      avatar: https://avatars.githubusercontent.com/u/126385851?v=4
