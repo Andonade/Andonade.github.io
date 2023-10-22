@@ -13,6 +13,10 @@ mathjax: true
 
 ***FL&A*** ，全称为 *Formal Language and Automata* ，中文译名为 *形式语言与自动机* ，本系列文章源于所学必修课，在整理知识点基础上对经典的解题思路进行归纳总结
 
+{% note warning %}
+因为 MathJax 问题，以下出现的数学公式出现的 `{` 以及 `}` 无法正常渲染
+{% endnote %}
+
 ## 概念介绍
 
 - *字母表 (Alphabet)*
@@ -27,7 +31,7 @@ mathjax: true
 
     字符串 $w$ 的长度记为 $\left|w\right|$ ，表示字符串中字符的数量
 
-    *eg.* 设 $\Sigma=${$a, b$} ，则 $\epsilon, a, ab$ 等都是串
+    *eg.* 设 $\Sigma=\{a, b\}$ ，则 $\epsilon, a, ab$ 等都是串
     
 - *相关运算*
         
@@ -41,7 +45,7 @@ mathjax: true
 
         设 $\Sigma$ 为字母表，$n$ 为任意自然数，定义
 
-        1. $\Sigma^{0}=${$\epsilon$}
+        1. $\Sigma^{0}=\{\epsilon\}$
         2. 设 $x\in\Sigma^{n-1}, a\in\Sigma$ ，则 $ax\in\Sigma^{n}$
         3. $\Sigma^{n}$ 中的元素只能有以上两种方式生成
    
@@ -59,10 +63,8 @@ mathjax: true
 
     - *连接 (concatenation)*
 
-        定义 $LM=${$w_{1}w_{2}|w_{1}\in L\land w_{2}\in M$}
+        定义 $LM=\{w_{1}w_{2}|w_{1}\in L\land w_{2}\in M\}$
 
     - *闭包 (closure)*
 
         定义 $L^{*}=L^{0}\cup L^{1}\cup L^{2}\cup\cdots$ ，其中 $L^{0}=\{\epsilon\}$ 且 $L^{n}=L^{n-1}L$
-
-        
