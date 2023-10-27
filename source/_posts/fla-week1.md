@@ -33,7 +33,7 @@ mathjax: true
         
     - *连接 (connection)*
 
-        设 $x\text{、}y$ 为串，且 $x=a_{1}a_{2}\cdots a_{n}$ ，$y=b_{1}b_{2}\cdots b_{m}$ ，则 $x\;\text{与}\;y$ 的连接为
+        设 $x\text{、}y$ 为串，且 $x=a_{1}a_{2}\cdots a_{n}$ ，$y=b_{1}b_{2}\cdots b_{m}$ ，则 $x\ \text{与}\ y$ 的连接为
         
         $$
         xy=a_{1}a_{2}\cdots a_{n}b_{1}b_{2}\cdots b_{m}
@@ -92,5 +92,5 @@ mathjax: true
         其中 
 
         $$
-        L^{0}=\lbrace\epsilon\rbrace\;\text{且}\;L^{n}=L^{n-1}L
+        L^{0}=\lbrace\epsilon\rbrace\ \text{且}\ L^{n}=L^{n-1}L
         $$
