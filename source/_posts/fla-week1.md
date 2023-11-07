@@ -34,13 +34,10 @@ mathjax: true
     - *连接 (connection)*
 
         设 $x\text{、}y$ 为串，且 $x=a_{1}a_{2}\cdots a_{n}$ ，$y=b_{1}b_{2}\cdots b_{m}$ ，则 $x\ \text{与}\ y$ 的连接为
-        
         $$
         xy=a_{1}a_{2}\cdots a_{n}b_{1}b_{2}\cdots b_{m}
         $$
-
         字符串的连接满足 **结合律**，且有
-        
         $$
         \left|xy\right|=\left|x\right|+\left|y\right|
         $$
@@ -56,7 +53,6 @@ mathjax: true
     - *\*闭包*
 
         定义
-        
         $$
         \Sigma^{*}=\Sigma^{0}\cup\Sigma^{1}\cup\Sigma^{2}\cup\cdots
         $$
@@ -64,7 +60,6 @@ mathjax: true
     - *+闭包*
 
         定义
-        
         $$
         \Sigma^{+}=\Sigma^{1}\cup\Sigma^{2}\cup\Sigma^{3}\cup\cdots
         $$
@@ -76,7 +71,6 @@ mathjax: true
     - *连接 (concatenation)*
 
         定义
-
         $$
         LM=\lbrace w_{1}w_{2}|w_{1}\in L\land w_{2}\in M\rbrace
         $$
@@ -84,13 +78,11 @@ mathjax: true
     - *闭包 (closure)*
 
         定义
-
         $$
         L^{*}=L^{0}\cup L^{1}\cup L^{2}\cup\cdots
         $$
         
-        其中 
-
+        其中
         $$
         L^{0}=\lbrace\epsilon\rbrace\ \text{且}\ L^{n}=L^{n-1}L
         $$
