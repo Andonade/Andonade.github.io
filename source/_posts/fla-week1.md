@@ -33,7 +33,7 @@ mathjax: true
         
     - *连接 (connection)*
 
-        设 $x\text{、}y$ 为串，且 $x=a_{1}a_{2}\cdots a_{n}$ ，$y=b_{1}b_{2}\cdots b_{m}$ ，则 $x\ \text{与}\ y$ 的连接为
+        设 $x$ , $y$ 为串，且 $x=a_{1}a_{2}\cdots a_{n}$ ，$y=b_{1}b_{2}\cdots b_{m}$ ，则 $x$ 与 $y$ 的连接为
         $$
         xy=a_{1}a_{2}\cdots a_{n}b_{1}b_{2}\cdots b_{m}
         $$
@@ -51,15 +51,11 @@ mathjax: true
         3. $\Sigma^{n}$ 中的元素只能有以上两种方式生成
    
     - *\*闭包*
-
-        定义
         $$
         \Sigma^{*}=\Sigma^{0}\cup\Sigma^{1}\cup\Sigma^{2}\cup\cdots
         $$
 
     - *+闭包*
-
-        定义
         $$
         \Sigma^{+}=\Sigma^{1}\cup\Sigma^{2}\cup\Sigma^{3}\cup\cdots
         $$
@@ -69,20 +65,11 @@ mathjax: true
     设 $\Sigma$ 为字母表，则 **任何** 集合 $L\subset\Sigma^{*}$ 是字母表 $\Sigma$ 上的一个语言
 
     - *连接 (concatenation)*
-
-        定义
         $$
         LM=\lbrace w_{1}w_{2}|w_{1}\in L\land w_{2}\in M\rbrace
         $$
 
     - *闭包 (closure)*
-
-        定义
         $$
-        L^{*}=L^{0}\cup L^{1}\cup L^{2}\cup\cdots
-        $$
-        
-        其中
-        $$
-        L^{0}=\lbrace\epsilon\rbrace\ \text{且}\ L^{n}=L^{n-1}L
+        L^{*}=L^{0}\cup L^{1}\cup L^{2}\cup\cdots\quad\text{其中}\ L^{0}=\lbrace\epsilon\rbrace\ \text{且}\ L^{n}=L^{n-1}L
         $$
