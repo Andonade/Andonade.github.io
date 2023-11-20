@@ -916,7 +916,7 @@ button {
   clear: both;
 }
 .markdown-body {
-  font-family: 'Gabarito', 'Noto Sans SC', sans-serif;
+  font-family: 'Cousine', 'Noto Sans SC', sans-serif;
   font-size: 16px;
 }
 .markdown-body blockquote {
@@ -1026,7 +1026,7 @@ button {
 .markdown-body .h4,
 .markdown-body .h5,
 .markdown-body .h6 {
-  font-family: 'Gabarito', 'Noto Sans SC', sans-serif;
+  font-family: 'Cousine', 'Noto Sans SC', sans-serif;
   color: var(--second-text-color);
   line-height: 1.5;
   margin-bottom: 1rem !important;
@@ -1555,7 +1555,7 @@ pre,
 }
 pre,
 code {
-  font-family: 'Source Code Pro', 'Ubuntu Mono', Courier, monospace !important;
+  font-family: 'Cousine', 'Ubuntu Mono', Courier, monospace !important;
 }
 pre.mermaid {
   background-color: var(--background-color);
@@ -3045,7 +3045,7 @@ html.is-animating .transition-fade {
   width: 100%;
   font-size: 0.92rem;
   box-sizing: border-box;
-  font-family: 'Gabarito', 'Noto Sans SC', 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-family: 'Cousine', 'Noto Sans SC', 'Noto Sans', 'Noto Sans SC', sans-serif;
 }
 .post-toc-wrap .post-toc .toc-title {
   font-size: 0.8rem;
@@ -5947,7 +5947,7 @@ html.is-animating .swup-progress-icon {
   }
 }
 .article-copyright-info-container {
-  font-family: 'Gabarito', 'Noto Sans SC', sans-serif;
+  font-family: 'Cousine', 'Noto Sans SC', sans-serif;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -6296,7 +6296,7 @@ html.is-animating .swup-progress-icon {
   font-size: 1.4rem;
   line-height: 1.5;
   color: var(--second-text-color);
-  font-family: 'Gabarito', 'Noto Sans SC', 'Noto Sans SC', sans-serif;
+  font-family: 'Cousine', 'Noto Sans SC', 'Noto Sans SC', sans-serif;
   margin: 0;
 }
 @media (max-width: 768px) {
