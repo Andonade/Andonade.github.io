@@ -50,8 +50,8 @@ global:
     # English fonts
     english: 
       enable: true # Whether to enable custom chinese font
-      family: Gabarito # Font family
-      url: https://fonts.googleapis.com/css2?family=Gabarito:wght@450 # Font URL to CSS file
+      family: Cousine # Font family
+      url: https://fonts.googleapis.com/css2?family=Cousine:wght@450 # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -266,8 +266,8 @@ articles:
     style: mac # mac | simple
     font: # Custom font
       enable: true # Whether to enable
-      family: Source Code Pro # Font family
-      url: https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap # Font URL to CSS file
+      family: Cousine # Font family
+      url: https://fonts.googleapis.com/css2?family=Cousine:wght@400;500;600;700&display=swap # Font URL to CSS file
   # Table of contents settings
   toc:
     enable: true # Whether to enable TOC
