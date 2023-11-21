@@ -211,7 +211,7 @@ redefine-tablet()
 }
 .markdown-body mjx-container {
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 .markdown-body mjx-container[display="true"] {
   display: flex !important;
