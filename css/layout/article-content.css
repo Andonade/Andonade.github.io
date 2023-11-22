@@ -359,13 +359,7 @@
   margin: 0 0.25rem;
 }
 .post-page-container .article-content-container .post-copyright-info {
-  margin-top: 38px;
   width: 100%;
-}
-@media (max-width: 768px) {
-  .post-page-container .article-content-container .post-copyright-info {
-    margin-top: 30.400000000000002px !important;
-  }
 }
 .post-page-container .article-content-container .article-nav .article-prev a,
 .post-page-container .article-content-container .article-nav .article-next a {
