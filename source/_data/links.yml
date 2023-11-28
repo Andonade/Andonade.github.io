@@ -1,5 +1,5 @@
-- links-category: Owner
-  has-thumbnail: true
+- links_category: Owner
+  has_thumbnail: true
   list:
     - name: Andonade
       link: https://andonade.github.io
@@ -7,8 +7,8 @@
       avatar: https://i.imgs.ovh/2023/10/18/r97Pe.jpeg
       thumbnail: https://i.imgs.ovh/2023/10/18/r9SUv.jpeg
 
-- links-category: Friends
-  has-thumbnail: false
+- links_category: Friends
+  has_thumbnail: false
   list:
     - name: 破酥
       link: https://cainhappyfish.github.io
