@@ -18,7 +18,7 @@ categories:
     <img src="https://i.imgs.ovh/2023/11/30/pzgDD.png" width="80%">
 </center>
 
-## Wakatime
+## WakaTime
 
 在拥有这样的 profile 之前，我们需要一个能够统计代码数据的工具，这里我们使用 [WakaTime](https://wakatime.com/)，WakaTime 是一款功能非常强大的代码统计工具，它能够作为插件集成在大多数主流代码编辑器、甚至 Chrome, 终端这些地方来统计你的代码数据。我们首先在官网上注册一个账号，可以看到它有多个订阅计划，免费的个人计划即可保存 14 天的数据，这对于我们来说已经足够了。
 
@@ -47,7 +47,7 @@ headers = {'Authorization': 'Basic ' + base64.b64encode(API_Key.encode('utf-8'))
 response = requests.get('api url', headers=headers)
 ```
 
-{% notel red fa-triangle-exclamation %}
+{% notel red fa-triangle-exclamation 注意 %}
 这里请注意，***一定！一定！一定！*** 不要使用明文来存储你的 **API key**，这段代码只是一个例子，你应当使用环境变量以及 GitHub 的 Actions Secrets 来存储你的 **API key**，这样才能防止 **API key** 的泄露，相关内容我们之后介绍。
 {% endnotel %}
 
