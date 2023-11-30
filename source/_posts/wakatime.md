@@ -12,7 +12,7 @@ categories:
 阅读本文需要基本的 Python 语法基础
 {% endnote %}
 
-你可能见过如下的 Github profile，你可能也想要一个这样的能够统计自己代码数据的 profile，本文正是为此而生！
+你可能见过如下的 Github profile，并且也想要一个这样的能够统计自己代码数据的 profile，本文正是为此而生！
 
 <center>
     <img src="https://i.imgs.ovh/2023/11/30/pzgDD.png" width="80%">
@@ -55,7 +55,7 @@ response = requests.get('api url', headers=headers)
 
 #### 爬取活动
 
-我们首先爬取日常的代码活动数据，查看 API 文档后得知接口为 `https://wakatime.com/api/v1/users/current/durations` 且必须加入 date 参数，为了得到最近一周的数据，我们需要以前 7 天的日期为参数，如下
+我们首先爬取日常的代码活动数据，查看 API 文档后得知接口为 `https://wakatime.com/api/v1/users/current/durations` 且必须加入 date 参数，为了得到最近一周的数据，我们需要以前 7 天的日期为参数，如下：
 
 ```python
 # get activity data
@@ -68,7 +68,7 @@ for i in range(6, -1, -1):
     # more code
 ```
 
-我们在 Postman 中查看接口返回的 json 文件，发现格式如下
+我们在 Postman 中查看接口返回的 json 文件，发现格式如下：
 
 ```json
 {
@@ -86,7 +86,7 @@ for i in range(6, -1, -1):
 }
 ```
 
-不难发现，数据统计的方式为将一天从早到晚的所有活动按时间顺序排列，不同的 project 分开统计，要获取一天的活动，只需要
+不难发现，数据统计的方式为将一天从早到晚的所有活动按时间顺序排列，不同的 project 分开统计，要获取一天的活动，只需要：
 
 ```python
 active = [False] * 24
@@ -98,7 +98,7 @@ for activity in activities:
         active[i] = True
 ```
 
-这样就可以得出一天中每个小时是否有活动，然后我们以此为根据画出分布图
+这样就可以得出一天中每个小时是否有活动，然后我们以此为根据画出分布图。
 
 ```python
 filled_char = '█'
@@ -113,7 +113,7 @@ hour_str += '|'
 
 #### 爬取其他数据
 
-其他数据使用接口 `https://wakatime.com/api/v1/users/current/stats/last_7_days` 获取，解析数据的方式遇上了相似，这里为了展现比例，使用了进度条来展示数据
+其他数据使用接口 `https://wakatime.com/api/v1/users/current/stats/last_7_days` 获取，解析数据的方式与上面相似。此外，这里为了展现比例，使用了进度条来展示数据，进度条的生成方式如下：
 
 ```python
 def convert_to_progress_bar(percentage: int, length: int = 25) -> str:
@@ -130,7 +130,7 @@ def convert_to_progress_bar(percentage: int, length: int = 25) -> str:
 
 将上面的代码 push 到 GitHub 上后，我们需要使用 GitHub 的 Workflow 来完成自动化的爬取和更新，首先我们需要在项目根目录下新建 `.github/workflows` 文件夹，然后在该文件夹下新建 `wakatime.yml` 文件，这个文件就是我们的 Workflow 文件，我们一步步将其完善。
 
-首先是 Workflow 的名字和触发条件，我们需要定时运行任务，所以使用 `schedule` 来完成
+首先是 Workflow 的名字和触发条件，我们需要定时运行任务，所以使用 `schedule` 来完成，这里用到了 cron 表达式，可以在 [Cronitor](https://crontab.guru/) 中查看。
 
 ```yaml
 name: Wakatime README
@@ -139,7 +139,7 @@ on:
     - cron: '0 15 * * *'
 ```
 
-然后是要完成的任务
+然后是要完成的任务。
 
 ```yaml
 jobs:
@@ -153,7 +153,7 @@ jobs:
       # more code
 ```
 
-我们需要运行的服务器有 Python 的环境和 requests 库，所以我们需要安装这些依赖
+我们需要服务器装配 Python 的环境和 requests 库，所以我们如下安装这些依赖。
 
 ```yaml
       - name: Setup Python
@@ -167,7 +167,7 @@ jobs:
         run: pip install -r requirements.txt
 ```
 
-然后我们再运行脚本来生成 README.md，注意这里要带上我们在 GitHub 上设置的 Actions secrets 且变量名不能出错
+然后我们再运行脚本来生成 README.md，注意这里要带上我们在 GitHub 上设置的 Actions secrets 且变量名不能出错。
 
 ```yaml
       - name: Run script
@@ -176,14 +176,14 @@ jobs:
         run: python action.py
 ```
 
-在脚本里，我们这样获取 **API key**
+在脚本里，我们这样获取 **API key**，这里注意使用的环境变量的名字要与上面 `env:` 下一行的冒号左边的一致。
 
 ```python
 import os
 API_Key = os.environ['WAKATIME_API_KEY']
 ```
 
-最后我们需要将生成的 README.md push 到 GitHub 上，这里我们使用 GitHub 上有人写好的轮子
+最后我们需要将生成的 README.md push 到 GitHub 上，这里我们使用 GitHub 上有人写好的轮子。
 
 ```yaml
       - uses: stefanzweifel/git-auto-commit-action@v5
@@ -193,9 +193,9 @@ API_Key = os.environ['WAKATIME_API_KEY']
           file_pattern: README.md
 ```
 
-完整的 Workflow 文件同样在 [Andonade](https://github.com/Andonade/Andonade) 中。
+完整的 Workflow 文件在 [wakatime.yml](https://github.com/Andonade/Andonade/blob/main/.github/workflows/wakatime.yml) 中可以看到。
 
-最后来看效果，你也可以根据自己的喜好进行自己的定制！
+最后来看效果，你也可以根据自己的喜好修改 README.md 的样式，或者使用更多数据来装饰你的 profile！
 
 <center>
     <img src="https://i.imgs.ovh/2023/11/30/pDDTX.png" width="90%">
