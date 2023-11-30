@@ -1,5 +1,5 @@
 ---
-title: 使用 WakaTime 和 Github Action 创造自己的 profile
+title: 用好 WakaTime
 date: 2023-11-30 17:09:24
 tags:
     - plaything
