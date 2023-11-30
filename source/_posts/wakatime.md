@@ -1,5 +1,5 @@
 ---
-title: 用好 WakaTime
+title: 用代码统计装潢 GitHub profile
 date: 2023-11-30 17:09:24
 tags:
     - plaything
