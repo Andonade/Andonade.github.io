@@ -2,7 +2,6 @@
 title: 这个博客的由来
 date: 2023-10-14 19:05:45
 tags: 
-    - blog
     - talk
 categories: 
     - 【杂谈】过去、或者未来的过去
