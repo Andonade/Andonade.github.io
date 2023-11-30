@@ -113,7 +113,7 @@
                 >
 </center>
 
-<h2 id="Wakatime"><a href="#Wakatime" class="headerlink" title="Wakatime"></a>Wakatime</h2><p>在拥有这样的 profile 之前，我们需要一个能够统计代码数据的工具，这里我们使用 <a class="link"   href="https://wakatime.com/" >WakaTime</a>，WakaTime 是一款功能非常强大的代码统计工具，它能够作为插件集成在大多数主流代码编辑器、甚至 Chrome, 终端这些地方来统计你的代码数据。我们首先在官网上注册一个账号，可以看到它有多个订阅计划，免费的个人计划即可保存 14 天的数据，这对于我们来说已经足够了。</p>
+<h2 id="WakaTime"><a href="#WakaTime" class="headerlink" title="WakaTime"></a>WakaTime</h2><p>在拥有这样的 profile 之前，我们需要一个能够统计代码数据的工具，这里我们使用 <a class="link"   href="https://wakatime.com/" >WakaTime</a>，WakaTime 是一款功能非常强大的代码统计工具，它能够作为插件集成在大多数主流代码编辑器、甚至 Chrome, 终端这些地方来统计你的代码数据。我们首先在官网上注册一个账号，可以看到它有多个订阅计划，免费的个人计划即可保存 14 天的数据，这对于我们来说已经足够了。</p>
 <p>然后我们来到 <a class="link"   href="https://wakatime.com/settings/account" >Settings | Account</a>，找到 <strong>API key</strong>（如下图）并复制，这个 <strong>API key</strong> 非常重要，我们在获取数据的时候需要用到它。</p>
 <center>
     <img  
@@ -132,7 +132,7 @@
 
   <div class="note-large red">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-triangle-exclamation"></i><p>icon-padding</p>
+      <i class="notel-icon fa-solid fa-triangle-exclamation"></i><p>注意</p>
 
     </div>
     <div class="notel-content">
