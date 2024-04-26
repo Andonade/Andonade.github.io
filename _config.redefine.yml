@@ -21,11 +21,11 @@ info:
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 defaults:
   # Favicon
-  favicon: https://s2.loli.net/2024/04/26/JO1Vh4fUtLSmIgv.jpg
+  favicon: https://s2.loli.net/2024/04/26/dv4K2pbHujR7Im1.jpg
   # Site logo
-  logo: https://s2.loli.net/2024/04/26/JO1Vh4fUtLSmIgv.jpg
+  logo: https://s2.loli.net/2024/04/26/dv4K2pbHujR7Im1.jpg
   # Site avatar
-  avatar: https://s2.loli.net/2024/04/26/kun8YEvGzUlwaON.jpg
+  avatar: https://s2.loli.net/2024/04/26/7LRHdZcFeG3WVi9.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -33,8 +33,10 @@ defaults:
 colors:
   #Primary color
   primary: "#6e72e6"
-  # Secondary color (beta)
+  # Secondary color (TBD)
   secondary: "#6ee6e6"
+  # Default theme mode initial value (will be overwritten by prefer-color-scheme)
+  default_mode: light # light, dark
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -166,6 +168,10 @@ navbar:
     left: "#de918a" #left side 
     right: "#8adadb"  #right side
     transparency: 35 #percent (10-99)
+  # Navbar width (usually no need to modify)
+  width:
+    home: 1200px #home page
+    pages: 1000px #other pages
   # Navbar links
   links:
     #首页: 
@@ -215,6 +221,7 @@ home:
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
     announcement: Normal one. Normal days. # Announcement text
+    show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
       归档: 
          path: /archives 
@@ -250,6 +257,13 @@ articles:
     image_caption: false # Whether to display image caption
     link_icon: false # Whether to display link icon
     title_alignment: left # Title alignment. left, center
+    headings_top_spacing: # Top spacing for headings from h1-h6
+      h1: 5rem
+      h2: 4rem
+      h3: 2.8rem
+      h4: 2.5rem
+      h5: 2.2rem
+      h6: 2rem
   # Word count. Requires hexo-wordcount (npm install hexo-wordcount). See https://github.com/willin/hexo-wordcount
   word_count:
     enable: true # Whether to enable
@@ -266,8 +280,8 @@ articles:
     style: mac # mac | simple
     font: # Custom font
       enable: true # Whether to enable
-      family: Cousine # Font family
-      url: https://fonts.googleapis.com/css2?family=Cousine:wght@400;500;600;700&display=swap # Font URL to CSS file
+      family: "Fira Code" # Font family
+      url: https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap # Font URL to CSS file
   # Table of contents settings
   toc:
     enable: true # Whether to enable TOC
@@ -345,6 +359,8 @@ footer:
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
   start: 2023/10/14 02:19:12
+  # Site statistics
+  statistics: true # show site statistics or not (total articles, total words)
   # Footer message
   customize: <p>Favicon from <a href="https://www.pixiv.net/users/163536">Rella</a>. Banner and avatar from <a href="https://www.pixiv.net/users/10109777">紺屋鴉江</a>.</p>
   # ICP record number. See https://beian.miit.gov.cn/
