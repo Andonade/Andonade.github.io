@@ -3,7 +3,7 @@ name: Pages
 on:
   push:
     branches:
-      - main  # default branch
+      - hexo
 
 jobs:
   pages:
@@ -30,8 +30,6 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install
-          npm un hexo-renderer-marked
-          npm i hexo-theme-redefine
       - name: Build
         run: npm run build
       - name: Deploy
