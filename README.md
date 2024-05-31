@@ -11,3 +11,5 @@
 - **2023/10/15**：本站第一次使用 [Travis CI bot](https://www.travis-ci.com/) 实现 CI 并开始测试
 
 - **2023/10/16**：CI 测试成功，日后将延续这样的更新方式
+
+- **2024/5/31**：本站改为使用 GitHub Actions 进行 CI/CD
