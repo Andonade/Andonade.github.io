@@ -3,7 +3,7 @@ name: Pages
 on:
   push:
     branches:
-      - hexo
+      - main
 
 jobs:
   pages:
