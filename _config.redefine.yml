@@ -349,9 +349,9 @@ comment:
     # Giscus comment system. See https://giscus.app/
     giscus:
       repo: Andonade/Andonade.github.io # Github repository name e.g. EvanNotFound/hexo-theme-redefine
-      repo_id: R_kgDOKfzDDQ # Github repository id
+      repo_id: R_kgDOMDIhbg # Github repository id
       category: Announcements # Github discussion category
-      category_id: DIC_kwDOKfzDDc4CbCDu # Github discussion category id
+      category_id: DIC_kwDOMDIhbs4CfzTm # Github discussion category id
       mapping: pathname # Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes
       strict: 0 # Whether to enable strict mode. e.g. 0, 1
       reactions_enabled: 1 # Whether to enable reactions. e.g. 0, 1
