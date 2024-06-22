@@ -153,6 +153,8 @@ home_banner:
   social_links:
     # Whether to enable
     enable: true
+    # Social links style
+    style: default # default, reverse, center
     # Social links
     links:
       github: https://github.com/Andonade # your GitHub URL
@@ -223,6 +225,7 @@ navbar:
 
 
 # HOME PAGE ARTICLE SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/home/home
 home:
   # Sidebar settings
   sidebar:
@@ -458,7 +461,7 @@ cdn:
   # Whether to enable CDN
   enable: false
   # CDN Provider
-  provider: zstatic # zstatic, sustech, staticfile, bootcdn, cdnjs, jsdelivr, unpkg, aliyun, custom
+  provider: npmmirror # npmmirror, zstatic, sustech, staticfile, bootcdn, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
   # format example: https://cdn.custom.com/hexo-theme-redefine/${version}/source/${path}
   # The ${path} must leads to the root of the "source" folder of the theme
