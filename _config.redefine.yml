@@ -58,6 +58,11 @@ global:
       enable: true # Whether to enable custom chinese font
       family: Fira Code # Font family
       url: https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap # Font URL to CSS file
+    # Custom title fonts (navbar, sidebar)
+    title:
+      enable: false # Whether to enable custom title fonts
+      family:  # Font family
+      url:  # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -80,7 +85,9 @@ global:
   # Whether to enable single page experience (using swup). See https://swup.js.org/. similar to pjax
   single_page: true
   # Whether to enable Preloader.
-  preloader: true
+  preloader:
+    enable: true
+    custom_message: # Custom message. If empty, the site title will be displayed
   # Whether to enable open graph
   open_graph: true
   # Google Analytics
@@ -122,6 +129,7 @@ home_banner:
     text: ["メルト 溶けてしまいそう", "この両手から零れそうなほど 君に貰った愛はどこに捨てよう？", "空へ舞う 世界の彼方", "あぁ 夏を今もう一回", "愛されなくても君がいる", "Welcome to the メルティランド", "そう これが悲しい僕の末路だ", "君と僕もさ、また明日へ向かっていこう", "そう 色褪せてしまう前に 今を駆け抜けて行くんだ僕ら", "もう 誰も追いつけない場所まで 加速していけ"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
+      show_author: false # Whether to show author
       api: https://v1.hitokoto.cn?c=a&c=b&c=c&c=h # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
     typing_speed: 100 # Typing speed (ms)
     backing_speed: 80 # Backing speed (ms)
@@ -247,6 +255,8 @@ home:
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
+  # Article excerpt length
+  excerpt_length: 200 # Max length of article excerpt
   # Article categories visibility
   categories:
     enable: true  # Whether to enable
@@ -291,6 +301,9 @@ articles:
   code_block:
     copy: true # Whether to enable code block copy button
     style: mac # mac | simple
+    highlight_theme: # Color scheme for highlightjs code highlighting. For preview, see https://highlightjs.org/examples
+      light: github # light mode theme, support: github, atom-one-light, default
+      dark: vs2015 # dark mode theme, support: github-dark, monokai-sublime, vs2015, night-owl, atom-one-dark, nord, tokyo-night-dark, a11y-dark, agate
     font: # Custom font
       enable: true # Whether to enable
       family: "Fira Code" # Font family
@@ -437,6 +450,7 @@ plugins:
 #        artist: # audio artist
 #        url: # audio url
 #        cover: # audio cover url
+#        lrc: # audio cover lrc
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
@@ -461,7 +475,7 @@ cdn:
   # Whether to enable CDN
   enable: false
   # CDN Provider
-  provider: npmmirror # npmmirror, zstatic, sustech, staticfile, bootcdn, cdnjs, jsdelivr, unpkg, custom
+  provider: npmmirror # npmmirror, zstatic, sustech, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
   # format example: https://cdn.custom.com/hexo-theme-redefine/${version}/source/${path}
   # The ${path} must leads to the root of the "source" folder of the theme

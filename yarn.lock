@@ -147,7 +147,7 @@ brace-expansion@^2.0.1:
   dependencies:
     balanced-match "^1.0.0"
 
-braces@^3.0.2, braces@~3.0.2:
+braces@^3.0.3, braces@~3.0.2:
   version "3.0.3"
   resolved "https://registry.npmjs.org/braces/-/braces-3.0.3.tgz"
   integrity sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==
@@ -757,10 +757,10 @@ hexo-theme-landscape@^1.0.0:
   resolved "https://registry.npmjs.org/hexo-theme-landscape/-/hexo-theme-landscape-1.0.0.tgz"
   integrity sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==
 
-hexo-theme-redefine@^2.6.4:
-  version "2.6.4"
-  resolved "https://registry.npmjs.org/hexo-theme-redefine/-/hexo-theme-redefine-2.6.4.tgz"
-  integrity sha512-XIvvXpOFhtM5NZHXl99TLRuhPVxgbZ9Tn+SCRQq4NeyEUQHeLFRTxHjBAMHOVhszIMmWXoxVBOFdySKffekj3A==
+hexo-theme-redefine@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.npmjs.org/hexo-theme-redefine/-/hexo-theme-redefine-2.7.1.tgz"
+  integrity sha512-XTa3GA5hNgylBOV1190FNijBEptwMo7C+xv7RaRMBtncGff1LArOl6mdwuIDxaO82kAL+ooA3hIbvoI3snZlFg==
   dependencies:
     postcss "^8.4.28"
 
@@ -1063,11 +1063,11 @@ micro-memoize@^4.1.2:
   integrity sha512-+HzcV2H+rbSJzApgkj0NdTakkC+bnyeiUxgT6/m7mjcz1CmM22KYFKp+EVj1sWe4UYcnriJr5uqHQD/gMHLD+g==
 
 micromatch@^4.0.4:
-  version "4.0.5"
-  resolved "https://registry.npmjs.org/micromatch/-/micromatch-4.0.5.tgz"
-  integrity sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==
+  version "4.0.8"
+  resolved "https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz"
+  integrity sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==
   dependencies:
-    braces "^3.0.2"
+    braces "^3.0.3"
     picomatch "^2.3.1"
 
 "mime-db@>= 1.43.0 < 2", mime-db@1.52.0:
